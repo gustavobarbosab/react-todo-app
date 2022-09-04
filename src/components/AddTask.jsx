@@ -10,6 +10,7 @@ const AddTask = ({ addNewTask }) => {
   };
 
   const buttonClickListener = () => {
+    if (inputMessage === "") return;
     addNewTask(inputMessage);
     setMessage("");
   };

@@ -8,18 +8,20 @@ const Task = ({ task, onClick, handleRemoveTask }) => {
     <div
       className="task-container"
       style={task.completed ? { borderLeft: "6px solid chartreuse" } : {}}
-      onClick={() => onClick(task.id)}
     >
-      <div>{task.title}</div>
+      <div onClick={() => onClick(task.id)} className="task-title-container">{task.title}</div>
       <div className="buttons-container">
-      <button style={task.completed ? { color: "green", display: "inline" } : {display: "none"}}>
-          <MdOutlineDone/>
-        </button>
         <button
-          className="button-remove-task"
-          onClick={() => handleRemoveTask(task.id)}
+          style={
+            task.completed
+              ? { color: "chartreuse", display: "inline" }
+              : { display: "none" }
+          }
         >
-          <MdDelete/>
+          <MdOutlineDone />
+        </button>
+        <button onClick={() => handleRemoveTask(task.id)}>
+          <MdDelete />
         </button>
       </div>
     </div>
