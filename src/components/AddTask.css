@@ -11,4 +11,6 @@
     border: none;
     flex: 2;
     margin-right: 4px;
+    background-color: #444;
+    color: white;
 }
