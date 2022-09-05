@@ -5,7 +5,7 @@ import { MdDelete, MdInfoOutline, MdOutlineDone } from "react-icons/md";
 const Task = ({ task, onClick, handleRemoveTask }) => {
   return (
     <div
-      className="task-container"
+      className={task.completed ? "task-container completed" : "task-container"}
       style={task.completed ? { borderLeft: "6px solid chartreuse" } : {}}
     >
       <div onClick={() => onClick(task.id)} className="task-title-container">
