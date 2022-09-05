@@ -10,11 +10,18 @@
     z-index: 0;
 }
 
+.button-checked {
+    color: chartreuse;
+}
+
+.button-uncheked {
+    color: white;
+}
+
 .buttons-container button {
     background-color: #444;
     border: none;
     font-size: 24px;
-    color: white;
     cursor: pointer;
     z-index: 10;
     position: relative;
