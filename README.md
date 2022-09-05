@@ -2,4 +2,4 @@
 
 Aqui estou buscando desenvolver conhecimentos relacionados ao desenvolvimento web, estudando um pouco mais como funciona a biblioteca React.
 
-<img width="700" alt="Screen Shot 2022-09-04 at 05 58 12" src="https://user-images.githubusercontent.com/11272342/188305782-8f173f22-d017-4099-abdd-b09f16fc96c4.png">
+<img width="675" alt="image" src="https://user-images.githubusercontent.com/11272342/188467616-f7252760-a8a2-40b4-aad1-301121ace583.png">
